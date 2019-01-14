@@ -86,7 +86,7 @@ window.onload = function () {
         console.log(_city);
         // appel AJAX avec fetch
         
-        fetch('https://api.openweathermap.org/data/2.5/weather?q='+ _city.name + '&units=metric&lang=fr&APPID=' + app.weatherKey)
+        fetch('https://api.openweathermap.org/data/2.5/weather?q='+ _city.name + '&units=metric&lang=fr&APPID=d892264f28eb0401fd0d738f5769111f')
           .then(function (response) {
             app.mapUrl = "https://maps.googleapis.com/maps/api/staticmap?center="+ _city.name + "&zoom=14&size=600x600&key="+ app.mapKey;
             return response.json();
