@@ -24,7 +24,7 @@ window.onload = function () {
       cityWeatherLoading: false,
 
       //  weather amp api key
-      weatherKey: " d892264f28eb0401fd0d738f5769111f",
+      weatherKey: "d892264f28eb0401fd0d738f5769111f",
       mapKey: "AIzaSyCsl2Fj9E0wX8Iz05thANxqakxGnAFieXg",
       mapUrl: "https://maps.googleapis.com/maps/api/staticmap?center="+ "Paris" + "&zoom=14&size=400x400&key=AIzaSyCsl2Fj9E0wX8Iz05thANxqakxGnAFieXg"
     },
