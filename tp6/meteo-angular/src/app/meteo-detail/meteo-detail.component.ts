@@ -4,12 +4,13 @@ import { Location } from '@angular/common';
 import {MeteoService} from '../services/meteo.service'
 import { DatePipe } from '@angular/common';
 
-
 @Component({
   selector: 'app-meteo-detail',
   templateUrl: './meteo-detail.component.html',
   styleUrls: ['./meteo-detail.component.css']
 })
+
+
 export class MeteoDetailComponent implements OnInit {
 
   meteo : any;

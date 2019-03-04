@@ -4,16 +4,15 @@ import { MeteoItem } from '../meteoItem';
 @Component({
   selector: 'app-meteo',
   templateUrl: './meteo.component.html',
-  styleUrls: ['./meteo.component.css']
+  styleUrls: ['./meteo.component.css'],
+ 
 })
 export class MeteoComponent implements OnInit {
-
   city: MeteoItem = {
     name: '',
     id: null,
     weather: null
   };
-
   cityList: any;
   constructor() { }
 
@@ -23,7 +22,6 @@ export class MeteoComponent implements OnInit {
     }else{
       this.cityList = [];
     }
-   
   }
 
   onSubmit() {
@@ -66,5 +64,8 @@ export class MeteoComponent implements OnInit {
   saveCityList(){
     localStorage.cityList = JSON.stringify(this.cityList);
   }
+  
+  
 
 }
+
